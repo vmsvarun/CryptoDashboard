@@ -1,0 +1,851 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--scripts-prepend-node-path=auto' ]
+2 info using npm@1.1.37
+3 info using node@v0.6.20
+4 verbose config file C:\Users\varun.shah\.npmrc
+5 verbose config file C:\Program Files (x86)\nodejs\etc\npmrc
+6 verbose config file C:\Program Files (x86)\nodejs\node_modules\npm\npmrc
+7 verbose read json C:\Users\varun.shah\WebstormProjects\CryptoDashboard\package.json
+8 verbose readDependencies using package.json deps
+9 verbose install where, deps [ 'C:\\Users\\varun.shah\\WebstormProjects\\CryptoDashboard',
+9 verbose install   [ '@angular/animations',
+9 verbose install     '@angular/common',
+9 verbose install     '@angular/compiler',
+9 verbose install     '@angular/core',
+9 verbose install     '@angular/forms',
+9 verbose install     '@angular/http',
+9 verbose install     '@angular/platform-browser',
+9 verbose install     '@angular/platform-browser-dynamic',
+9 verbose install     '@angular/router',
+9 verbose install     'angular-2-dropdown-multiselect',
+9 verbose install     'core-js',
+9 verbose install     'rxjs',
+9 verbose install     'zone.js',
+9 verbose install     '@angular/cli',
+9 verbose install     '@angular/compiler-cli',
+9 verbose install     '@angular/language-service',
+9 verbose install     '@types/jasmine',
+9 verbose install     '@types/jasminewd2',
+9 verbose install     '@types/node',
+9 verbose install     'angular-ide',
+9 verbose install     'codelyzer',
+9 verbose install     'jasmine-core',
+9 verbose install     'jasmine-spec-reporter',
+9 verbose install     'karma',
+9 verbose install     'karma-chrome-launcher',
+9 verbose install     'karma-cli',
+9 verbose install     'karma-coverage-istanbul-reporter',
+9 verbose install     'karma-jasmine',
+9 verbose install     'karma-jasmine-html-reporter',
+9 verbose install     'protractor',
+9 verbose install     'ts-node',
+9 verbose install     'tslint',
+9 verbose install     'typescript' ] ]
+10 verbose from cache C:\Users\varun.shah\WebstormProjects\CryptoDashboard\package.json
+11 info preinstall crypto-dashboard@0.0.0
+12 verbose from cache C:\Users\varun.shah\WebstormProjects\CryptoDashboard\package.json
+13 verbose readDependencies using package.json deps
+14 verbose cache add [ '@angular/common@^4.2.4', null ]
+15 silly cache add name=undefined spec="@angular/common@^4.2.4" args=["@angular/common@^4.2.4",null]
+16 verbose parsed url { pathname: '@angular/common@^4.2.4',
+16 verbose parsed url   path: '@angular/common@^4.2.4',
+16 verbose parsed url   href: '@angular/common@^4.2.4' }
+17 silly cache add name="" spec="angular/common@^4.2.4" args=["","angular/common@^4.2.4"]
+18 verbose parsed url { pathname: 'angular/common@^4.2.4',
+18 verbose parsed url   path: 'angular/common@^4.2.4',
+18 verbose parsed url   href: 'angular/common@^4.2.4' }
+19 silly cache add name="angular/common" spec="^4.2.4" args=["angular/common","^4.2.4"]
+20 verbose parsed url { pathname: '^4.2.4', path: '^4.2.4', href: '^4.2.4' }
+21 verbose addNamed [ 'angular/common', '^4.2.4' ]
+22 verbose addNamed [ null, null ]
+23 verbose cache add [ '@angular/compiler@^4.2.4', null ]
+24 silly cache add name=undefined spec="@angular/compiler@^4.2.4" args=["@angular/compiler@^4.2.4",null]
+25 verbose parsed url { pathname: '@angular/compiler@^4.2.4',
+25 verbose parsed url   path: '@angular/compiler@^4.2.4',
+25 verbose parsed url   href: '@angular/compiler@^4.2.4' }
+26 silly cache add name="" spec="angular/compiler@^4.2.4" args=["","angular/compiler@^4.2.4"]
+27 verbose parsed url { pathname: 'angular/compiler@^4.2.4',
+27 verbose parsed url   path: 'angular/compiler@^4.2.4',
+27 verbose parsed url   href: 'angular/compiler@^4.2.4' }
+28 silly cache add name="angular/compiler" spec="^4.2.4" args=["angular/compiler","^4.2.4"]
+29 verbose parsed url { pathname: '^4.2.4', path: '^4.2.4', href: '^4.2.4' }
+30 verbose addNamed [ 'angular/compiler', '^4.2.4' ]
+31 verbose addNamed [ null, null ]
+32 verbose cache add [ '@angular/core@^4.2.4', null ]
+33 silly cache add name=undefined spec="@angular/core@^4.2.4" args=["@angular/core@^4.2.4",null]
+34 verbose parsed url { pathname: '@angular/core@^4.2.4',
+34 verbose parsed url   path: '@angular/core@^4.2.4',
+34 verbose parsed url   href: '@angular/core@^4.2.4' }
+35 silly cache add name="" spec="angular/core@^4.2.4" args=["","angular/core@^4.2.4"]
+36 verbose parsed url { pathname: 'angular/core@^4.2.4',
+36 verbose parsed url   path: 'angular/core@^4.2.4',
+36 verbose parsed url   href: 'angular/core@^4.2.4' }
+37 silly cache add name="angular/core" spec="^4.2.4" args=["angular/core","^4.2.4"]
+38 verbose parsed url { pathname: '^4.2.4', path: '^4.2.4', href: '^4.2.4' }
+39 verbose addNamed [ 'angular/core', '^4.2.4' ]
+40 verbose addNamed [ null, null ]
+41 verbose cache add [ '@angular/forms@^4.2.4', null ]
+42 silly cache add name=undefined spec="@angular/forms@^4.2.4" args=["@angular/forms@^4.2.4",null]
+43 verbose parsed url { pathname: '@angular/forms@^4.2.4',
+43 verbose parsed url   path: '@angular/forms@^4.2.4',
+43 verbose parsed url   href: '@angular/forms@^4.2.4' }
+44 silly cache add name="" spec="angular/forms@^4.2.4" args=["","angular/forms@^4.2.4"]
+45 verbose parsed url { pathname: 'angular/forms@^4.2.4',
+45 verbose parsed url   path: 'angular/forms@^4.2.4',
+45 verbose parsed url   href: 'angular/forms@^4.2.4' }
+46 silly cache add name="angular/forms" spec="^4.2.4" args=["angular/forms","^4.2.4"]
+47 verbose parsed url { pathname: '^4.2.4', path: '^4.2.4', href: '^4.2.4' }
+48 verbose addNamed [ 'angular/forms', '^4.2.4' ]
+49 verbose addNamed [ null, null ]
+50 verbose cache add [ '@angular/http@^4.2.4', null ]
+51 silly cache add name=undefined spec="@angular/http@^4.2.4" args=["@angular/http@^4.2.4",null]
+52 verbose parsed url { pathname: '@angular/http@^4.2.4',
+52 verbose parsed url   path: '@angular/http@^4.2.4',
+52 verbose parsed url   href: '@angular/http@^4.2.4' }
+53 silly cache add name="" spec="angular/http@^4.2.4" args=["","angular/http@^4.2.4"]
+54 verbose parsed url { pathname: 'angular/http@^4.2.4',
+54 verbose parsed url   path: 'angular/http@^4.2.4',
+54 verbose parsed url   href: 'angular/http@^4.2.4' }
+55 silly cache add name="angular/http" spec="^4.2.4" args=["angular/http","^4.2.4"]
+56 verbose parsed url { pathname: '^4.2.4', path: '^4.2.4', href: '^4.2.4' }
+57 verbose addNamed [ 'angular/http', '^4.2.4' ]
+58 verbose addNamed [ null, null ]
+59 verbose cache add [ '@angular/platform-browser@^4.2.4', null ]
+60 silly cache add name=undefined spec="@angular/platform-browser@^4.2.4" args=["@angular/platform-browser@^4.2.4",null]
+61 verbose parsed url { pathname: '@angular/platform-browser@^4.2.4',
+61 verbose parsed url   path: '@angular/platform-browser@^4.2.4',
+61 verbose parsed url   href: '@angular/platform-browser@^4.2.4' }
+62 silly cache add name="" spec="angular/platform-browser@^4.2.4" args=["","angular/platform-browser@^4.2.4"]
+63 verbose parsed url { pathname: 'angular/platform-browser@^4.2.4',
+63 verbose parsed url   path: 'angular/platform-browser@^4.2.4',
+63 verbose parsed url   href: 'angular/platform-browser@^4.2.4' }
+64 silly cache add name="angular/platform-browser" spec="^4.2.4" args=["angular/platform-browser","^4.2.4"]
+65 verbose parsed url { pathname: '^4.2.4', path: '^4.2.4', href: '^4.2.4' }
+66 verbose addNamed [ 'angular/platform-browser', '^4.2.4' ]
+67 verbose addNamed [ null, null ]
+68 verbose cache add [ '@angular/platform-browser-dynamic@^4.2.4', null ]
+69 silly cache add name=undefined spec="@angular/platform-browser-dynamic@^4.2.4" args=["@angular/platform-browser-dynamic@^4.2.4",null]
+70 verbose parsed url { pathname: '@angular/platform-browser-dynamic@^4.2.4',
+70 verbose parsed url   path: '@angular/platform-browser-dynamic@^4.2.4',
+70 verbose parsed url   href: '@angular/platform-browser-dynamic@^4.2.4' }
+71 silly cache add name="" spec="angular/platform-browser-dynamic@^4.2.4" args=["","angular/platform-browser-dynamic@^4.2.4"]
+72 verbose parsed url { pathname: 'angular/platform-browser-dynamic@^4.2.4',
+72 verbose parsed url   path: 'angular/platform-browser-dynamic@^4.2.4',
+72 verbose parsed url   href: 'angular/platform-browser-dynamic@^4.2.4' }
+73 silly cache add name="angular/platform-browser-dynamic" spec="^4.2.4" args=["angular/platform-browser-dynamic","^4.2.4"]
+74 verbose parsed url { pathname: '^4.2.4', path: '^4.2.4', href: '^4.2.4' }
+75 verbose addNamed [ 'angular/platform-browser-dynamic', '^4.2.4' ]
+76 verbose addNamed [ null, null ]
+77 verbose cache add [ '@angular/router@^4.2.4', null ]
+78 silly cache add name=undefined spec="@angular/router@^4.2.4" args=["@angular/router@^4.2.4",null]
+79 verbose parsed url { pathname: '@angular/router@^4.2.4',
+79 verbose parsed url   path: '@angular/router@^4.2.4',
+79 verbose parsed url   href: '@angular/router@^4.2.4' }
+80 silly cache add name="" spec="angular/router@^4.2.4" args=["","angular/router@^4.2.4"]
+81 verbose parsed url { pathname: 'angular/router@^4.2.4',
+81 verbose parsed url   path: 'angular/router@^4.2.4',
+81 verbose parsed url   href: 'angular/router@^4.2.4' }
+82 silly cache add name="angular/router" spec="^4.2.4" args=["angular/router","^4.2.4"]
+83 verbose parsed url { pathname: '^4.2.4', path: '^4.2.4', href: '^4.2.4' }
+84 verbose addNamed [ 'angular/router', '^4.2.4' ]
+85 verbose addNamed [ null, null ]
+86 verbose cache add [ 'angular-2-dropdown-multiselect@^1.6.1', null ]
+87 silly cache add name=undefined spec="angular-2-dropdown-multiselect@^1.6.1" args=["angular-2-dropdown-multiselect@^1.6.1",null]
+88 verbose parsed url { pathname: 'angular-2-dropdown-multiselect@^1.6.1',
+88 verbose parsed url   path: 'angular-2-dropdown-multiselect@^1.6.1',
+88 verbose parsed url   href: 'angular-2-dropdown-multiselect@^1.6.1' }
+89 silly cache add name="angular-2-dropdown-multiselect" spec="^1.6.1" args=["angular-2-dropdown-multiselect","^1.6.1"]
+90 verbose parsed url { pathname: '^1.6.1', path: '^1.6.1', href: '^1.6.1' }
+91 verbose addNamed [ 'angular-2-dropdown-multiselect', '^1.6.1' ]
+92 verbose addNamed [ null, null ]
+93 verbose cache add [ 'core-js@^2.4.1', null ]
+94 silly cache add name=undefined spec="core-js@^2.4.1" args=["core-js@^2.4.1",null]
+95 verbose parsed url { pathname: 'core-js@^2.4.1',
+95 verbose parsed url   path: 'core-js@^2.4.1',
+95 verbose parsed url   href: 'core-js@^2.4.1' }
+96 silly cache add name="core-js" spec="^2.4.1" args=["core-js","^2.4.1"]
+97 verbose parsed url { pathname: '^2.4.1', path: '^2.4.1', href: '^2.4.1' }
+98 verbose addNamed [ 'core-js', '^2.4.1' ]
+99 verbose addNamed [ null, null ]
+100 verbose cache add [ 'rxjs@^5.4.2', null ]
+101 silly cache add name=undefined spec="rxjs@^5.4.2" args=["rxjs@^5.4.2",null]
+102 verbose parsed url { pathname: 'rxjs@^5.4.2',
+102 verbose parsed url   path: 'rxjs@^5.4.2',
+102 verbose parsed url   href: 'rxjs@^5.4.2' }
+103 silly cache add name="rxjs" spec="^5.4.2" args=["rxjs","^5.4.2"]
+104 verbose parsed url { pathname: '^5.4.2', path: '^5.4.2', href: '^5.4.2' }
+105 verbose addNamed [ 'rxjs', '^5.4.2' ]
+106 verbose addNamed [ null, null ]
+107 verbose cache add [ 'zone.js@^0.8.14', null ]
+108 silly cache add name=undefined spec="zone.js@^0.8.14" args=["zone.js@^0.8.14",null]
+109 verbose parsed url { pathname: 'zone.js@^0.8.14',
+109 verbose parsed url   path: 'zone.js@^0.8.14',
+109 verbose parsed url   href: 'zone.js@^0.8.14' }
+110 silly cache add name="zone.js" spec="^0.8.14" args=["zone.js","^0.8.14"]
+111 verbose parsed url { pathname: '^0.8.14', path: '^0.8.14', href: '^0.8.14' }
+112 verbose addNamed [ 'zone.js', '^0.8.14' ]
+113 verbose addNamed [ null, null ]
+114 verbose cache add [ '@angular/cli@1.4.9', null ]
+115 silly cache add name=undefined spec="@angular/cli@1.4.9" args=["@angular/cli@1.4.9",null]
+116 verbose parsed url { pathname: '@angular/cli@1.4.9',
+116 verbose parsed url   path: '@angular/cli@1.4.9',
+116 verbose parsed url   href: '@angular/cli@1.4.9' }
+117 silly cache add name="" spec="angular/cli@1.4.9" args=["","angular/cli@1.4.9"]
+118 verbose parsed url { pathname: 'angular/cli@1.4.9',
+118 verbose parsed url   path: 'angular/cli@1.4.9',
+118 verbose parsed url   href: 'angular/cli@1.4.9' }
+119 silly cache add name="angular/cli" spec="1.4.9" args=["angular/cli","1.4.9"]
+120 verbose parsed url { pathname: '1.4.9', path: '1.4.9', href: '1.4.9' }
+121 verbose addNamed [ 'angular/cli', '1.4.9' ]
+122 verbose addNamed [ '1.4.9', '1.4.9' ]
+123 verbose cache add [ '@angular/compiler-cli@^4.2.4', null ]
+124 silly cache add name=undefined spec="@angular/compiler-cli@^4.2.4" args=["@angular/compiler-cli@^4.2.4",null]
+125 verbose parsed url { pathname: '@angular/compiler-cli@^4.2.4',
+125 verbose parsed url   path: '@angular/compiler-cli@^4.2.4',
+125 verbose parsed url   href: '@angular/compiler-cli@^4.2.4' }
+126 silly cache add name="" spec="angular/compiler-cli@^4.2.4" args=["","angular/compiler-cli@^4.2.4"]
+127 verbose parsed url { pathname: 'angular/compiler-cli@^4.2.4',
+127 verbose parsed url   path: 'angular/compiler-cli@^4.2.4',
+127 verbose parsed url   href: 'angular/compiler-cli@^4.2.4' }
+128 silly cache add name="angular/compiler-cli" spec="^4.2.4" args=["angular/compiler-cli","^4.2.4"]
+129 verbose parsed url { pathname: '^4.2.4', path: '^4.2.4', href: '^4.2.4' }
+130 verbose addNamed [ 'angular/compiler-cli', '^4.2.4' ]
+131 verbose addNamed [ null, null ]
+132 verbose cache add [ '@angular/language-service@^4.2.4', null ]
+133 silly cache add name=undefined spec="@angular/language-service@^4.2.4" args=["@angular/language-service@^4.2.4",null]
+134 verbose parsed url { pathname: '@angular/language-service@^4.2.4',
+134 verbose parsed url   path: '@angular/language-service@^4.2.4',
+134 verbose parsed url   href: '@angular/language-service@^4.2.4' }
+135 silly cache add name="" spec="angular/language-service@^4.2.4" args=["","angular/language-service@^4.2.4"]
+136 verbose parsed url { pathname: 'angular/language-service@^4.2.4',
+136 verbose parsed url   path: 'angular/language-service@^4.2.4',
+136 verbose parsed url   href: 'angular/language-service@^4.2.4' }
+137 silly cache add name="angular/language-service" spec="^4.2.4" args=["angular/language-service","^4.2.4"]
+138 verbose parsed url { pathname: '^4.2.4', path: '^4.2.4', href: '^4.2.4' }
+139 verbose addNamed [ 'angular/language-service', '^4.2.4' ]
+140 verbose addNamed [ null, null ]
+141 verbose cache add [ '@types/jasmine@~2.5.53', null ]
+142 silly cache add name=undefined spec="@types/jasmine@~2.5.53" args=["@types/jasmine@~2.5.53",null]
+143 verbose parsed url { pathname: '@types/jasmine@~2.5.53',
+143 verbose parsed url   path: '@types/jasmine@~2.5.53',
+143 verbose parsed url   href: '@types/jasmine@~2.5.53' }
+144 silly cache add name="" spec="types/jasmine@~2.5.53" args=["","types/jasmine@~2.5.53"]
+145 verbose parsed url { pathname: 'types/jasmine@~2.5.53',
+145 verbose parsed url   path: 'types/jasmine@~2.5.53',
+145 verbose parsed url   href: 'types/jasmine@~2.5.53' }
+146 silly cache add name="types/jasmine" spec="~2.5.53" args=["types/jasmine","~2.5.53"]
+147 verbose parsed url { pathname: '~2.5.53', path: '~2.5.53', href: '~2.5.53' }
+148 verbose addNamed [ 'types/jasmine', '~2.5.53' ]
+149 verbose addNamed [ null, '>=2.5.53- <2.6.0-' ]
+150 silly lockFile 4e720ad1-angular-forms-4-2-4 angular/forms@^4.2.4
+151 verbose lock angular/forms@^4.2.4 C:\Users\varun.shah\AppData\Roaming\npm-cache\4e720ad1-angular-forms-4-2-4.lock
+152 silly lockFile c2ae72d0-angular-compiler-4-2-4 angular/compiler@^4.2.4
+153 verbose lock angular/compiler@^4.2.4 C:\Users\varun.shah\AppData\Roaming\npm-cache\c2ae72d0-angular-compiler-4-2-4.lock
+154 silly lockFile 779d2959-angular-platform-browser-4-2-4 angular/platform-browser@^4.2.4
+155 verbose lock angular/platform-browser@^4.2.4 C:\Users\varun.shah\AppData\Roaming\npm-cache\779d2959-angular-platform-browser-4-2-4.lock
+156 silly lockFile 99224624-angular-common-4-2-4 angular/common@^4.2.4
+157 verbose lock angular/common@^4.2.4 C:\Users\varun.shah\AppData\Roaming\npm-cache\99224624-angular-common-4-2-4.lock
+158 silly lockFile 803acaac-r-platform-browser-dynamic-4-2-4 angular/platform-browser-dynamic@^4.2.4
+159 verbose lock angular/platform-browser-dynamic@^4.2.4 C:\Users\varun.shah\AppData\Roaming\npm-cache\803acaac-r-platform-browser-dynamic-4-2-4.lock
+160 silly lockFile 3b7416fa-lar-2-dropdown-multiselect-1-6-1 angular-2-dropdown-multiselect@^1.6.1
+161 verbose lock angular-2-dropdown-multiselect@^1.6.1 C:\Users\varun.shah\AppData\Roaming\npm-cache\3b7416fa-lar-2-dropdown-multiselect-1-6-1.lock
+162 silly lockFile b9ab7567-zone-js-0-8-14 zone.js@^0.8.14
+163 verbose lock zone.js@^0.8.14 C:\Users\varun.shah\AppData\Roaming\npm-cache\b9ab7567-zone-js-0-8-14.lock
+164 silly lockFile 509d7943-rxjs-5-4-2 rxjs@^5.4.2
+165 verbose lock rxjs@^5.4.2 C:\Users\varun.shah\AppData\Roaming\npm-cache\509d7943-rxjs-5-4-2.lock
+166 silly lockFile 48acb985-angular-cli-1-4-9 angular/cli@1.4.9
+167 verbose lock angular/cli@1.4.9 C:\Users\varun.shah\AppData\Roaming\npm-cache\48acb985-angular-cli-1-4-9.lock
+168 silly lockFile a299e77f-core-js-2-4-1 core-js@^2.4.1
+169 verbose lock core-js@^2.4.1 C:\Users\varun.shah\AppData\Roaming\npm-cache\a299e77f-core-js-2-4-1.lock
+170 silly lockFile f3fac0b5-angular-http-4-2-4 angular/http@^4.2.4
+171 verbose lock angular/http@^4.2.4 C:\Users\varun.shah\AppData\Roaming\npm-cache\f3fac0b5-angular-http-4-2-4.lock
+172 silly lockFile 60d39037-angular-compiler-cli-4-2-4 angular/compiler-cli@^4.2.4
+173 verbose lock angular/compiler-cli@^4.2.4 C:\Users\varun.shah\AppData\Roaming\npm-cache\60d39037-angular-compiler-cli-4-2-4.lock
+174 silly lockFile 600d968a-angular-router-4-2-4 angular/router@^4.2.4
+175 verbose lock angular/router@^4.2.4 C:\Users\varun.shah\AppData\Roaming\npm-cache\600d968a-angular-router-4-2-4.lock
+176 silly lockFile a7ed89d9-angular-language-service-4-2-4 angular/language-service@^4.2.4
+177 verbose lock angular/language-service@^4.2.4 C:\Users\varun.shah\AppData\Roaming\npm-cache\a7ed89d9-angular-language-service-4-2-4.lock
+178 silly lockFile d664df1c-types-jasmine-2-5-53 types/jasmine@~2.5.53
+179 verbose lock types/jasmine@~2.5.53 C:\Users\varun.shah\AppData\Roaming\npm-cache\d664df1c-types-jasmine-2-5-53.lock
+180 silly lockFile 0fdb18c3-angular-core-4-2-4 angular/core@^4.2.4
+181 verbose lock angular/core@^4.2.4 C:\Users\varun.shah\AppData\Roaming\npm-cache\0fdb18c3-angular-core-4-2-4.lock
+182 info addNameTag [ 'angular/language-service', '^4.2.4' ]
+183 info addNameTag [ 'angular-2-dropdown-multiselect', '^1.6.1' ]
+184 info addNameTag [ 'core-js', '^2.4.1' ]
+185 info addNameTag [ 'angular/platform-browser-dynamic', '^4.2.4' ]
+186 info addNameTag [ 'angular/router', '^4.2.4' ]
+187 info addNameTag [ 'angular/platform-browser', '^4.2.4' ]
+188 info addNameTag [ 'angular/http', '^4.2.4' ]
+189 info addNameTag [ 'zone.js', '^0.8.14' ]
+190 silly addNameRange { name: 'types/jasmine',
+190 silly addNameRange   range: '>=2.5.53- <2.6.0-',
+190 silly addNameRange   hasData: false }
+191 info addNameTag [ 'rxjs', '^5.4.2' ]
+192 info addNameTag [ 'angular/common', '^4.2.4' ]
+193 verbose url raw angular/language-service
+194 verbose url resolving [ 'https://registry.npmjs.org/', './angular/language-service' ]
+195 verbose url resolved https://registry.npmjs.org/angular/language-service
+196 info retry registry request attempt 1 at 15:51:21
+197 http GET https://registry.npmjs.org/angular/language-service
+198 verbose url raw angular-2-dropdown-multiselect
+199 verbose url resolving [ 'https://registry.npmjs.org/',
+199 verbose url resolving   './angular-2-dropdown-multiselect' ]
+200 verbose url resolved https://registry.npmjs.org/angular-2-dropdown-multiselect
+201 info retry registry request attempt 1 at 15:51:21
+202 http GET https://registry.npmjs.org/angular-2-dropdown-multiselect
+203 verbose url raw core-js
+204 verbose url resolving [ 'https://registry.npmjs.org/', './core-js' ]
+205 verbose url resolved https://registry.npmjs.org/core-js
+206 info retry registry request attempt 1 at 15:51:21
+207 http GET https://registry.npmjs.org/core-js
+208 verbose url raw angular/platform-browser-dynamic
+209 verbose url resolving [ 'https://registry.npmjs.org/',
+209 verbose url resolving   './angular/platform-browser-dynamic' ]
+210 verbose url resolved https://registry.npmjs.org/angular/platform-browser-dynamic
+211 info retry registry request attempt 1 at 15:51:21
+212 http GET https://registry.npmjs.org/angular/platform-browser-dynamic
+213 info addNameTag [ 'angular/forms', '^4.2.4' ]
+214 verbose url raw angular/router
+215 verbose url resolving [ 'https://registry.npmjs.org/', './angular/router' ]
+216 verbose url resolved https://registry.npmjs.org/angular/router
+217 info retry registry request attempt 1 at 15:51:21
+218 http GET https://registry.npmjs.org/angular/router
+219 verbose url raw angular/platform-browser
+220 verbose url resolving [ 'https://registry.npmjs.org/', './angular/platform-browser' ]
+221 verbose url resolved https://registry.npmjs.org/angular/platform-browser
+222 info retry registry request attempt 1 at 15:51:21
+223 http GET https://registry.npmjs.org/angular/platform-browser
+224 info addNameTag [ 'angular/compiler-cli', '^4.2.4' ]
+225 verbose url raw angular/http
+226 verbose url resolving [ 'https://registry.npmjs.org/', './angular/http' ]
+227 verbose url resolved https://registry.npmjs.org/angular/http
+228 info retry registry request attempt 1 at 15:51:21
+229 http GET https://registry.npmjs.org/angular/http
+230 verbose url raw zone.js
+231 verbose url resolving [ 'https://registry.npmjs.org/', './zone.js' ]
+232 verbose url resolved https://registry.npmjs.org/zone.js
+233 info retry registry request attempt 1 at 15:51:21
+234 http GET https://registry.npmjs.org/zone.js
+235 verbose url raw types/jasmine
+236 verbose url resolving [ 'https://registry.npmjs.org/', './types/jasmine' ]
+237 verbose url resolved https://registry.npmjs.org/types/jasmine
+238 info retry registry request attempt 1 at 15:51:21
+239 http GET https://registry.npmjs.org/types/jasmine
+240 verbose cache add [ '@types/jasminewd2@~2.0.2', null ]
+241 silly cache add name=undefined spec="@types/jasminewd2@~2.0.2" args=["@types/jasminewd2@~2.0.2",null]
+242 verbose parsed url { pathname: '@types/jasminewd2@~2.0.2',
+242 verbose parsed url   path: '@types/jasminewd2@~2.0.2',
+242 verbose parsed url   href: '@types/jasminewd2@~2.0.2' }
+243 silly cache add name="" spec="types/jasminewd2@~2.0.2" args=["","types/jasminewd2@~2.0.2"]
+244 verbose parsed url { pathname: 'types/jasminewd2@~2.0.2',
+244 verbose parsed url   path: 'types/jasminewd2@~2.0.2',
+244 verbose parsed url   href: 'types/jasminewd2@~2.0.2' }
+245 silly cache add name="types/jasminewd2" spec="~2.0.2" args=["types/jasminewd2","~2.0.2"]
+246 verbose parsed url { pathname: '~2.0.2', path: '~2.0.2', href: '~2.0.2' }
+247 verbose addNamed [ 'types/jasminewd2', '~2.0.2' ]
+248 verbose addNamed [ null, '>=2.0.2- <2.1.0-' ]
+249 silly lockFile b51f984a-types-jasminewd2-2-0-2 types/jasminewd2@~2.0.2
+250 verbose lock types/jasminewd2@~2.0.2 C:\Users\varun.shah\AppData\Roaming\npm-cache\b51f984a-types-jasminewd2-2-0-2.lock
+251 verbose cache add [ '@types/node@~6.0.60', null ]
+252 silly cache add name=undefined spec="@types/node@~6.0.60" args=["@types/node@~6.0.60",null]
+253 verbose parsed url { pathname: '@types/node@~6.0.60',
+253 verbose parsed url   path: '@types/node@~6.0.60',
+253 verbose parsed url   href: '@types/node@~6.0.60' }
+254 silly cache add name="" spec="types/node@~6.0.60" args=["","types/node@~6.0.60"]
+255 verbose parsed url { pathname: 'types/node@~6.0.60',
+255 verbose parsed url   path: 'types/node@~6.0.60',
+255 verbose parsed url   href: 'types/node@~6.0.60' }
+256 silly cache add name="types/node" spec="~6.0.60" args=["types/node","~6.0.60"]
+257 verbose parsed url { pathname: '~6.0.60', path: '~6.0.60', href: '~6.0.60' }
+258 verbose addNamed [ 'types/node', '~6.0.60' ]
+259 verbose addNamed [ null, '>=6.0.60- <6.1.0-' ]
+260 silly lockFile c5c213cd-types-node-6-0-60 types/node@~6.0.60
+261 verbose lock types/node@~6.0.60 C:\Users\varun.shah\AppData\Roaming\npm-cache\c5c213cd-types-node-6-0-60.lock
+262 verbose cache add [ 'angular-ide@^0.9.38', null ]
+263 silly cache add name=undefined spec="angular-ide@^0.9.38" args=["angular-ide@^0.9.38",null]
+264 verbose parsed url { pathname: 'angular-ide@^0.9.38',
+264 verbose parsed url   path: 'angular-ide@^0.9.38',
+264 verbose parsed url   href: 'angular-ide@^0.9.38' }
+265 silly cache add name="angular-ide" spec="^0.9.38" args=["angular-ide","^0.9.38"]
+266 verbose parsed url { pathname: '^0.9.38', path: '^0.9.38', href: '^0.9.38' }
+267 verbose addNamed [ 'angular-ide', '^0.9.38' ]
+268 verbose addNamed [ null, null ]
+269 silly lockFile 6df420bd-angular-ide-0-9-38 angular-ide@^0.9.38
+270 verbose lock angular-ide@^0.9.38 C:\Users\varun.shah\AppData\Roaming\npm-cache\6df420bd-angular-ide-0-9-38.lock
+271 verbose cache add [ 'codelyzer@~3.2.0', null ]
+272 silly cache add name=undefined spec="codelyzer@~3.2.0" args=["codelyzer@~3.2.0",null]
+273 verbose parsed url { pathname: 'codelyzer@~3.2.0',
+273 verbose parsed url   path: 'codelyzer@~3.2.0',
+273 verbose parsed url   href: 'codelyzer@~3.2.0' }
+274 silly cache add name="codelyzer" spec="~3.2.0" args=["codelyzer","~3.2.0"]
+275 verbose parsed url { pathname: '~3.2.0', path: '~3.2.0', href: '~3.2.0' }
+276 verbose addNamed [ 'codelyzer', '~3.2.0' ]
+277 verbose addNamed [ null, '>=3.2.0- <3.3.0-' ]
+278 silly lockFile 586ed2f6-codelyzer-3-2-0 codelyzer@~3.2.0
+279 verbose lock codelyzer@~3.2.0 C:\Users\varun.shah\AppData\Roaming\npm-cache\586ed2f6-codelyzer-3-2-0.lock
+280 verbose cache add [ 'jasmine-core@~2.6.2', null ]
+281 silly cache add name=undefined spec="jasmine-core@~2.6.2" args=["jasmine-core@~2.6.2",null]
+282 verbose parsed url { pathname: 'jasmine-core@~2.6.2',
+282 verbose parsed url   path: 'jasmine-core@~2.6.2',
+282 verbose parsed url   href: 'jasmine-core@~2.6.2' }
+283 silly cache add name="jasmine-core" spec="~2.6.2" args=["jasmine-core","~2.6.2"]
+284 verbose parsed url { pathname: '~2.6.2', path: '~2.6.2', href: '~2.6.2' }
+285 verbose addNamed [ 'jasmine-core', '~2.6.2' ]
+286 verbose addNamed [ null, '>=2.6.2- <2.7.0-' ]
+287 silly lockFile 5b71ae59-jasmine-core-2-6-2 jasmine-core@~2.6.2
+288 verbose lock jasmine-core@~2.6.2 C:\Users\varun.shah\AppData\Roaming\npm-cache\5b71ae59-jasmine-core-2-6-2.lock
+289 verbose cache add [ 'jasmine-spec-reporter@~4.1.0', null ]
+290 silly cache add name=undefined spec="jasmine-spec-reporter@~4.1.0" args=["jasmine-spec-reporter@~4.1.0",null]
+291 verbose parsed url { pathname: 'jasmine-spec-reporter@~4.1.0',
+291 verbose parsed url   path: 'jasmine-spec-reporter@~4.1.0',
+291 verbose parsed url   href: 'jasmine-spec-reporter@~4.1.0' }
+292 silly cache add name="jasmine-spec-reporter" spec="~4.1.0" args=["jasmine-spec-reporter","~4.1.0"]
+293 verbose parsed url { pathname: '~4.1.0', path: '~4.1.0', href: '~4.1.0' }
+294 verbose addNamed [ 'jasmine-spec-reporter', '~4.1.0' ]
+295 verbose addNamed [ null, '>=4.1.0- <4.2.0-' ]
+296 silly lockFile c753af2f-jasmine-spec-reporter-4-1-0 jasmine-spec-reporter@~4.1.0
+297 verbose lock jasmine-spec-reporter@~4.1.0 C:\Users\varun.shah\AppData\Roaming\npm-cache\c753af2f-jasmine-spec-reporter-4-1-0.lock
+298 verbose cache add [ 'karma@~1.7.0', null ]
+299 silly cache add name=undefined spec="karma@~1.7.0" args=["karma@~1.7.0",null]
+300 verbose parsed url { pathname: 'karma@~1.7.0',
+300 verbose parsed url   path: 'karma@~1.7.0',
+300 verbose parsed url   href: 'karma@~1.7.0' }
+301 silly cache add name="karma" spec="~1.7.0" args=["karma","~1.7.0"]
+302 verbose parsed url { pathname: '~1.7.0', path: '~1.7.0', href: '~1.7.0' }
+303 verbose addNamed [ 'karma', '~1.7.0' ]
+304 verbose addNamed [ null, '>=1.7.0- <1.8.0-' ]
+305 silly lockFile a37e0b41-karma-1-7-0 karma@~1.7.0
+306 verbose lock karma@~1.7.0 C:\Users\varun.shah\AppData\Roaming\npm-cache\a37e0b41-karma-1-7-0.lock
+307 verbose cache add [ 'karma-chrome-launcher@~2.1.1', null ]
+308 silly cache add name=undefined spec="karma-chrome-launcher@~2.1.1" args=["karma-chrome-launcher@~2.1.1",null]
+309 verbose parsed url { pathname: 'karma-chrome-launcher@~2.1.1',
+309 verbose parsed url   path: 'karma-chrome-launcher@~2.1.1',
+309 verbose parsed url   href: 'karma-chrome-launcher@~2.1.1' }
+310 silly cache add name="karma-chrome-launcher" spec="~2.1.1" args=["karma-chrome-launcher","~2.1.1"]
+311 verbose parsed url { pathname: '~2.1.1', path: '~2.1.1', href: '~2.1.1' }
+312 verbose addNamed [ 'karma-chrome-launcher', '~2.1.1' ]
+313 verbose addNamed [ null, '>=2.1.1- <2.2.0-' ]
+314 silly lockFile c9eceb11-karma-chrome-launcher-2-1-1 karma-chrome-launcher@~2.1.1
+315 verbose lock karma-chrome-launcher@~2.1.1 C:\Users\varun.shah\AppData\Roaming\npm-cache\c9eceb11-karma-chrome-launcher-2-1-1.lock
+316 verbose cache add [ 'karma-cli@~1.0.1', null ]
+317 silly cache add name=undefined spec="karma-cli@~1.0.1" args=["karma-cli@~1.0.1",null]
+318 verbose parsed url { pathname: 'karma-cli@~1.0.1',
+318 verbose parsed url   path: 'karma-cli@~1.0.1',
+318 verbose parsed url   href: 'karma-cli@~1.0.1' }
+319 silly cache add name="karma-cli" spec="~1.0.1" args=["karma-cli","~1.0.1"]
+320 verbose parsed url { pathname: '~1.0.1', path: '~1.0.1', href: '~1.0.1' }
+321 verbose addNamed [ 'karma-cli', '~1.0.1' ]
+322 verbose addNamed [ null, '>=1.0.1- <1.1.0-' ]
+323 silly lockFile ed2a26b9-karma-cli-1-0-1 karma-cli@~1.0.1
+324 verbose lock karma-cli@~1.0.1 C:\Users\varun.shah\AppData\Roaming\npm-cache\ed2a26b9-karma-cli-1-0-1.lock
+325 verbose cache add [ 'karma-coverage-istanbul-reporter@^1.2.1', null ]
+326 silly cache add name=undefined spec="karma-coverage-istanbul-reporter@^1.2.1" args=["karma-coverage-istanbul-reporter@^1.2.1",null]
+327 verbose parsed url { pathname: 'karma-coverage-istanbul-reporter@^1.2.1',
+327 verbose parsed url   path: 'karma-coverage-istanbul-reporter@^1.2.1',
+327 verbose parsed url   href: 'karma-coverage-istanbul-reporter@^1.2.1' }
+328 silly cache add name="karma-coverage-istanbul-reporter" spec="^1.2.1" args=["karma-coverage-istanbul-reporter","^1.2.1"]
+329 verbose parsed url { pathname: '^1.2.1', path: '^1.2.1', href: '^1.2.1' }
+330 verbose addNamed [ 'karma-coverage-istanbul-reporter', '^1.2.1' ]
+331 verbose addNamed [ null, null ]
+332 silly lockFile d3cb86ff-coverage-istanbul-reporter-1-2-1 karma-coverage-istanbul-reporter@^1.2.1
+333 verbose lock karma-coverage-istanbul-reporter@^1.2.1 C:\Users\varun.shah\AppData\Roaming\npm-cache\d3cb86ff-coverage-istanbul-reporter-1-2-1.lock
+334 verbose cache add [ 'karma-jasmine@~1.1.0', null ]
+335 silly cache add name=undefined spec="karma-jasmine@~1.1.0" args=["karma-jasmine@~1.1.0",null]
+336 verbose parsed url { pathname: 'karma-jasmine@~1.1.0',
+336 verbose parsed url   path: 'karma-jasmine@~1.1.0',
+336 verbose parsed url   href: 'karma-jasmine@~1.1.0' }
+337 silly cache add name="karma-jasmine" spec="~1.1.0" args=["karma-jasmine","~1.1.0"]
+338 verbose parsed url { pathname: '~1.1.0', path: '~1.1.0', href: '~1.1.0' }
+339 verbose addNamed [ 'karma-jasmine', '~1.1.0' ]
+340 verbose addNamed [ null, '>=1.1.0- <1.2.0-' ]
+341 silly lockFile ef08d1db-karma-jasmine-1-1-0 karma-jasmine@~1.1.0
+342 verbose lock karma-jasmine@~1.1.0 C:\Users\varun.shah\AppData\Roaming\npm-cache\ef08d1db-karma-jasmine-1-1-0.lock
+343 verbose cache add [ 'karma-jasmine-html-reporter@^0.2.2', null ]
+344 silly cache add name=undefined spec="karma-jasmine-html-reporter@^0.2.2" args=["karma-jasmine-html-reporter@^0.2.2",null]
+345 verbose parsed url { pathname: 'karma-jasmine-html-reporter@^0.2.2',
+345 verbose parsed url   path: 'karma-jasmine-html-reporter@^0.2.2',
+345 verbose parsed url   href: 'karma-jasmine-html-reporter@^0.2.2' }
+346 silly cache add name="karma-jasmine-html-reporter" spec="^0.2.2" args=["karma-jasmine-html-reporter","^0.2.2"]
+347 verbose parsed url { pathname: '^0.2.2', path: '^0.2.2', href: '^0.2.2' }
+348 verbose addNamed [ 'karma-jasmine-html-reporter', '^0.2.2' ]
+349 verbose addNamed [ null, null ]
+350 silly lockFile abcf8253-arma-jasmine-html-reporter-0-2-2 karma-jasmine-html-reporter@^0.2.2
+351 verbose lock karma-jasmine-html-reporter@^0.2.2 C:\Users\varun.shah\AppData\Roaming\npm-cache\abcf8253-arma-jasmine-html-reporter-0-2-2.lock
+352 verbose cache add [ 'protractor@~5.1.2', null ]
+353 silly cache add name=undefined spec="protractor@~5.1.2" args=["protractor@~5.1.2",null]
+354 verbose parsed url { pathname: 'protractor@~5.1.2',
+354 verbose parsed url   path: 'protractor@~5.1.2',
+354 verbose parsed url   href: 'protractor@~5.1.2' }
+355 silly cache add name="protractor" spec="~5.1.2" args=["protractor","~5.1.2"]
+356 verbose parsed url { pathname: '~5.1.2', path: '~5.1.2', href: '~5.1.2' }
+357 verbose addNamed [ 'protractor', '~5.1.2' ]
+358 verbose addNamed [ null, '>=5.1.2- <5.2.0-' ]
+359 silly lockFile d1b0721d-protractor-5-1-2 protractor@~5.1.2
+360 verbose lock protractor@~5.1.2 C:\Users\varun.shah\AppData\Roaming\npm-cache\d1b0721d-protractor-5-1-2.lock
+361 verbose cache add [ 'ts-node@~3.2.0', null ]
+362 silly cache add name=undefined spec="ts-node@~3.2.0" args=["ts-node@~3.2.0",null]
+363 verbose parsed url { pathname: 'ts-node@~3.2.0',
+363 verbose parsed url   path: 'ts-node@~3.2.0',
+363 verbose parsed url   href: 'ts-node@~3.2.0' }
+364 silly cache add name="ts-node" spec="~3.2.0" args=["ts-node","~3.2.0"]
+365 verbose parsed url { pathname: '~3.2.0', path: '~3.2.0', href: '~3.2.0' }
+366 verbose addNamed [ 'ts-node', '~3.2.0' ]
+367 verbose addNamed [ null, '>=3.2.0- <3.3.0-' ]
+368 silly lockFile de1ddd6e-ts-node-3-2-0 ts-node@~3.2.0
+369 verbose lock ts-node@~3.2.0 C:\Users\varun.shah\AppData\Roaming\npm-cache\de1ddd6e-ts-node-3-2-0.lock
+370 verbose cache add [ 'tslint@~5.7.0', null ]
+371 silly cache add name=undefined spec="tslint@~5.7.0" args=["tslint@~5.7.0",null]
+372 verbose parsed url { pathname: 'tslint@~5.7.0',
+372 verbose parsed url   path: 'tslint@~5.7.0',
+372 verbose parsed url   href: 'tslint@~5.7.0' }
+373 silly cache add name="tslint" spec="~5.7.0" args=["tslint","~5.7.0"]
+374 verbose parsed url { pathname: '~5.7.0', path: '~5.7.0', href: '~5.7.0' }
+375 verbose addNamed [ 'tslint', '~5.7.0' ]
+376 verbose addNamed [ null, '>=5.7.0- <5.8.0-' ]
+377 silly lockFile 6f25cfa3-tslint-5-7-0 tslint@~5.7.0
+378 verbose lock tslint@~5.7.0 C:\Users\varun.shah\AppData\Roaming\npm-cache\6f25cfa3-tslint-5-7-0.lock
+379 verbose cache add [ 'typescript@~2.3.3', null ]
+380 silly cache add name=undefined spec="typescript@~2.3.3" args=["typescript@~2.3.3",null]
+381 verbose parsed url { pathname: 'typescript@~2.3.3',
+381 verbose parsed url   path: 'typescript@~2.3.3',
+381 verbose parsed url   href: 'typescript@~2.3.3' }
+382 silly cache add name="typescript" spec="~2.3.3" args=["typescript","~2.3.3"]
+383 verbose parsed url { pathname: '~2.3.3', path: '~2.3.3', href: '~2.3.3' }
+384 verbose addNamed [ 'typescript', '~2.3.3' ]
+385 verbose addNamed [ null, '>=2.3.3- <2.4.0-' ]
+386 silly lockFile c67dc9ab-typescript-2-3-3 typescript@~2.3.3
+387 verbose lock typescript@~2.3.3 C:\Users\varun.shah\AppData\Roaming\npm-cache\c67dc9ab-typescript-2-3-3.lock
+388 verbose cache add [ '@angular/animations@^4.2.4', null ]
+389 silly cache add name=undefined spec="@angular/animations@^4.2.4" args=["@angular/animations@^4.2.4",null]
+390 verbose parsed url { pathname: '@angular/animations@^4.2.4',
+390 verbose parsed url   path: '@angular/animations@^4.2.4',
+390 verbose parsed url   href: '@angular/animations@^4.2.4' }
+391 silly cache add name="" spec="angular/animations@^4.2.4" args=["","angular/animations@^4.2.4"]
+392 verbose parsed url { pathname: 'angular/animations@^4.2.4',
+392 verbose parsed url   path: 'angular/animations@^4.2.4',
+392 verbose parsed url   href: 'angular/animations@^4.2.4' }
+393 silly cache add name="angular/animations" spec="^4.2.4" args=["angular/animations","^4.2.4"]
+394 verbose parsed url { pathname: '^4.2.4', path: '^4.2.4', href: '^4.2.4' }
+395 verbose addNamed [ 'angular/animations', '^4.2.4' ]
+396 verbose addNamed [ null, null ]
+397 silly lockFile 85c9914f-angular-animations-4-2-4 angular/animations@^4.2.4
+398 verbose lock angular/animations@^4.2.4 C:\Users\varun.shah\AppData\Roaming\npm-cache\85c9914f-angular-animations-4-2-4.lock
+399 verbose url raw rxjs
+400 verbose url resolving [ 'https://registry.npmjs.org/', './rxjs' ]
+401 verbose url resolved https://registry.npmjs.org/rxjs
+402 info retry registry request attempt 1 at 15:51:21
+403 http GET https://registry.npmjs.org/rxjs
+404 verbose url raw angular/cli/1.4.9
+405 verbose url resolving [ 'https://registry.npmjs.org/', './angular/cli/1.4.9' ]
+406 verbose url resolved https://registry.npmjs.org/angular/cli/1.4.9
+407 info retry registry request attempt 1 at 15:51:21
+408 http GET https://registry.npmjs.org/angular/cli/1.4.9
+409 verbose url raw angular/common
+410 verbose url resolving [ 'https://registry.npmjs.org/', './angular/common' ]
+411 verbose url resolved https://registry.npmjs.org/angular/common
+412 info retry registry request attempt 1 at 15:51:21
+413 http GET https://registry.npmjs.org/angular/common
+414 info addNameTag [ 'angular/core', '^4.2.4' ]
+415 info addNameTag [ 'angular/compiler', '^4.2.4' ]
+416 verbose url raw angular/forms
+417 verbose url resolving [ 'https://registry.npmjs.org/', './angular/forms' ]
+418 verbose url resolved https://registry.npmjs.org/angular/forms
+419 info retry registry request attempt 1 at 15:51:21
+420 http GET https://registry.npmjs.org/angular/forms
+421 verbose url raw angular/compiler-cli
+422 verbose url resolving [ 'https://registry.npmjs.org/', './angular/compiler-cli' ]
+423 verbose url resolved https://registry.npmjs.org/angular/compiler-cli
+424 info retry registry request attempt 1 at 15:51:21
+425 http GET https://registry.npmjs.org/angular/compiler-cli
+426 verbose url raw angular/compiler
+427 verbose url resolving [ 'https://registry.npmjs.org/', './angular/compiler' ]
+428 verbose url resolved https://registry.npmjs.org/angular/compiler
+429 info retry registry request attempt 1 at 15:51:21
+430 http GET https://registry.npmjs.org/angular/compiler
+431 verbose url raw angular/core
+432 verbose url resolving [ 'https://registry.npmjs.org/', './angular/core' ]
+433 verbose url resolved https://registry.npmjs.org/angular/core
+434 info retry registry request attempt 1 at 15:51:21
+435 http GET https://registry.npmjs.org/angular/core
+436 silly addNameRange { name: 'karma-cli', range: '>=1.0.1- <1.1.0-', hasData: false }
+437 info addNameTag [ 'karma-coverage-istanbul-reporter', '^1.2.1' ]
+438 silly addNameRange { name: 'tslint', range: '>=5.7.0- <5.8.0-', hasData: false }
+439 silly addNameRange { name: 'types/node',
+439 silly addNameRange   range: '>=6.0.60- <6.1.0-',
+439 silly addNameRange   hasData: false }
+440 silly addNameRange { name: 'types/jasminewd2',
+440 silly addNameRange   range: '>=2.0.2- <2.1.0-',
+440 silly addNameRange   hasData: false }
+441 silly addNameRange { name: 'protractor', range: '>=5.1.2- <5.2.0-', hasData: false }
+442 silly addNameRange { name: 'karma-jasmine',
+442 silly addNameRange   range: '>=1.1.0- <1.2.0-',
+442 silly addNameRange   hasData: false }
+443 silly addNameRange { name: 'karma-chrome-launcher',
+443 silly addNameRange   range: '>=2.1.1- <2.2.0-',
+443 silly addNameRange   hasData: false }
+444 info addNameTag [ 'angular-ide', '^0.9.38' ]
+445 silly addNameRange { name: 'ts-node', range: '>=3.2.0- <3.3.0-', hasData: false }
+446 silly addNameRange { name: 'jasmine-spec-reporter',
+446 silly addNameRange   range: '>=4.1.0- <4.2.0-',
+446 silly addNameRange   hasData: false }
+447 silly addNameRange { name: 'jasmine-core',
+447 silly addNameRange   range: '>=2.6.2- <2.7.0-',
+447 silly addNameRange   hasData: false }
+448 info addNameTag [ 'angular/animations', '^4.2.4' ]
+449 silly addNameRange { name: 'typescript', range: '>=2.3.3- <2.4.0-', hasData: false }
+450 silly addNameRange { name: 'codelyzer', range: '>=3.2.0- <3.3.0-', hasData: false }
+451 info addNameTag [ 'karma-jasmine-html-reporter', '^0.2.2' ]
+452 silly addNameRange { name: 'karma', range: '>=1.7.0- <1.8.0-', hasData: false }
+453 verbose url raw karma-cli
+454 verbose url resolving [ 'https://registry.npmjs.org/', './karma-cli' ]
+455 verbose url resolved https://registry.npmjs.org/karma-cli
+456 info retry registry request attempt 1 at 15:51:21
+457 http GET https://registry.npmjs.org/karma-cli
+458 verbose url raw karma-coverage-istanbul-reporter
+459 verbose url resolving [ 'https://registry.npmjs.org/',
+459 verbose url resolving   './karma-coverage-istanbul-reporter' ]
+460 verbose url resolved https://registry.npmjs.org/karma-coverage-istanbul-reporter
+461 info retry registry request attempt 1 at 15:51:21
+462 http GET https://registry.npmjs.org/karma-coverage-istanbul-reporter
+463 verbose url raw tslint
+464 verbose url resolving [ 'https://registry.npmjs.org/', './tslint' ]
+465 verbose url resolved https://registry.npmjs.org/tslint
+466 info retry registry request attempt 1 at 15:51:21
+467 http GET https://registry.npmjs.org/tslint
+468 verbose url raw types/node
+469 verbose url resolving [ 'https://registry.npmjs.org/', './types/node' ]
+470 verbose url resolved https://registry.npmjs.org/types/node
+471 info retry registry request attempt 1 at 15:51:21
+472 http GET https://registry.npmjs.org/types/node
+473 verbose url raw types/jasminewd2
+474 verbose url resolving [ 'https://registry.npmjs.org/', './types/jasminewd2' ]
+475 verbose url resolved https://registry.npmjs.org/types/jasminewd2
+476 info retry registry request attempt 1 at 15:51:21
+477 http GET https://registry.npmjs.org/types/jasminewd2
+478 verbose url raw protractor
+479 verbose url resolving [ 'https://registry.npmjs.org/', './protractor' ]
+480 verbose url resolved https://registry.npmjs.org/protractor
+481 info retry registry request attempt 1 at 15:51:21
+482 http GET https://registry.npmjs.org/protractor
+483 verbose url raw karma-jasmine
+484 verbose url resolving [ 'https://registry.npmjs.org/', './karma-jasmine' ]
+485 verbose url resolved https://registry.npmjs.org/karma-jasmine
+486 info retry registry request attempt 1 at 15:51:21
+487 http GET https://registry.npmjs.org/karma-jasmine
+488 verbose url raw karma-chrome-launcher
+489 verbose url resolving [ 'https://registry.npmjs.org/', './karma-chrome-launcher' ]
+490 verbose url resolved https://registry.npmjs.org/karma-chrome-launcher
+491 info retry registry request attempt 1 at 15:51:21
+492 http GET https://registry.npmjs.org/karma-chrome-launcher
+493 verbose url raw angular-ide
+494 verbose url resolving [ 'https://registry.npmjs.org/', './angular-ide' ]
+495 verbose url resolved https://registry.npmjs.org/angular-ide
+496 info retry registry request attempt 1 at 15:51:21
+497 http GET https://registry.npmjs.org/angular-ide
+498 verbose url raw ts-node
+499 verbose url resolving [ 'https://registry.npmjs.org/', './ts-node' ]
+500 verbose url resolved https://registry.npmjs.org/ts-node
+501 info retry registry request attempt 1 at 15:51:21
+502 http GET https://registry.npmjs.org/ts-node
+503 verbose url raw jasmine-spec-reporter
+504 verbose url resolving [ 'https://registry.npmjs.org/', './jasmine-spec-reporter' ]
+505 verbose url resolved https://registry.npmjs.org/jasmine-spec-reporter
+506 info retry registry request attempt 1 at 15:51:21
+507 http GET https://registry.npmjs.org/jasmine-spec-reporter
+508 verbose url raw jasmine-core
+509 verbose url resolving [ 'https://registry.npmjs.org/', './jasmine-core' ]
+510 verbose url resolved https://registry.npmjs.org/jasmine-core
+511 info retry registry request attempt 1 at 15:51:21
+512 http GET https://registry.npmjs.org/jasmine-core
+513 verbose url raw angular/animations
+514 verbose url resolving [ 'https://registry.npmjs.org/', './angular/animations' ]
+515 verbose url resolved https://registry.npmjs.org/angular/animations
+516 info retry registry request attempt 1 at 15:51:21
+517 http GET https://registry.npmjs.org/angular/animations
+518 verbose url raw typescript
+519 verbose url resolving [ 'https://registry.npmjs.org/', './typescript' ]
+520 verbose url resolved https://registry.npmjs.org/typescript
+521 info retry registry request attempt 1 at 15:51:21
+522 http GET https://registry.npmjs.org/typescript
+523 verbose url raw codelyzer
+524 verbose url resolving [ 'https://registry.npmjs.org/', './codelyzer' ]
+525 verbose url resolved https://registry.npmjs.org/codelyzer
+526 info retry registry request attempt 1 at 15:51:21
+527 http GET https://registry.npmjs.org/codelyzer
+528 verbose url raw karma-jasmine-html-reporter
+529 verbose url resolving [ 'https://registry.npmjs.org/',
+529 verbose url resolving   './karma-jasmine-html-reporter' ]
+530 verbose url resolved https://registry.npmjs.org/karma-jasmine-html-reporter
+531 info retry registry request attempt 1 at 15:51:21
+532 http GET https://registry.npmjs.org/karma-jasmine-html-reporter
+533 verbose url raw karma
+534 verbose url resolving [ 'https://registry.npmjs.org/', './karma' ]
+535 verbose url resolved https://registry.npmjs.org/karma
+536 info retry registry request attempt 1 at 15:51:21
+537 http GET https://registry.npmjs.org/karma
+538 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+539 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+540 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+541 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+542 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+543 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+544 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+545 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+546 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+547 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+548 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+549 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+550 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+551 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+552 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+553 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+554 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+555 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+556 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+557 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+558 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+559 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+560 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+561 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+562 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+563 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+564 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+565 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+566 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+567 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+568 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+569 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+570 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+571 info retry registry request attempt 2 at 15:51:31
+572 http GET https://registry.npmjs.org/core-js
+573 info retry registry request attempt 2 at 15:51:31
+574 http GET https://registry.npmjs.org/angular-2-dropdown-multiselect
+575 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+576 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+577 info retry registry request attempt 2 at 15:51:31
+578 http GET https://registry.npmjs.org/angular/http
+579 info retry registry request attempt 2 at 15:51:31
+580 http GET https://registry.npmjs.org/zone.js
+581 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+582 info retry registry request attempt 2 at 15:51:31
+583 http GET https://registry.npmjs.org/angular/router
+584 info retry registry request attempt 2 at 15:51:31
+585 http GET https://registry.npmjs.org/angular/language-service
+586 info retry registry request attempt 2 at 15:51:31
+587 http GET https://registry.npmjs.org/angular/platform-browser
+588 info retry registry request attempt 2 at 15:51:32
+589 http GET https://registry.npmjs.org/rxjs
+590 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+591 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+592 info retry registry request attempt 2 at 15:51:32
+593 http GET https://registry.npmjs.org/types/jasmine
+594 info retry registry request attempt 2 at 15:51:32
+595 http GET https://registry.npmjs.org/angular/cli/1.4.9
+596 info retry registry request attempt 2 at 15:51:32
+597 http GET https://registry.npmjs.org/angular/platform-browser-dynamic
+598 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+599 info retry registry request attempt 2 at 15:51:32
+600 http GET https://registry.npmjs.org/angular/common
+601 info retry registry request attempt 2 at 15:51:32
+602 http GET https://registry.npmjs.org/karma-cli
+603 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+604 info retry registry request attempt 2 at 15:51:32
+605 http GET https://registry.npmjs.org/angular/compiler-cli
+606 info retry registry request attempt 2 at 15:51:32
+607 http GET https://registry.npmjs.org/karma-coverage-istanbul-reporter
+608 info retry registry request attempt 2 at 15:51:32
+609 http GET https://registry.npmjs.org/tslint
+610 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+611 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+612 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+613 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+614 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+615 info retry registry request attempt 2 at 15:51:32
+616 http GET https://registry.npmjs.org/angular/forms
+617 info retry registry request attempt 2 at 15:51:32
+618 http GET https://registry.npmjs.org/protractor
+619 info retry registry request attempt 2 at 15:51:32
+620 http GET https://registry.npmjs.org/types/jasminewd2
+621 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+622 info retry registry request attempt 2 at 15:51:32
+623 http GET https://registry.npmjs.org/karma-jasmine
+624 info retry registry request attempt 2 at 15:51:32
+625 http GET https://registry.npmjs.org/angular/compiler
+626 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+627 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+628 info retry registry request attempt 2 at 15:51:32
+629 http GET https://registry.npmjs.org/ts-node
+630 info retry registry request attempt 2 at 15:51:32
+631 http GET https://registry.npmjs.org/angular-ide
+632 info retry registry request attempt 2 at 15:51:32
+633 http GET https://registry.npmjs.org/angular/core
+634 info retry registry request attempt 2 at 15:51:32
+635 http GET https://registry.npmjs.org/karma-chrome-launcher
+636 info retry registry request attempt 2 at 15:51:32
+637 http GET https://registry.npmjs.org/jasmine-spec-reporter
+638 info retry registry request attempt 2 at 15:51:32
+639 http GET https://registry.npmjs.org/jasmine-core
+640 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+641 info retry registry request attempt 2 at 15:51:32
+642 http GET https://registry.npmjs.org/codelyzer
+643 info retry registry request attempt 2 at 15:51:32
+644 http GET https://registry.npmjs.org/typescript
+645 info retry registry request attempt 2 at 15:51:32
+646 http GET https://registry.npmjs.org/types/node
+647 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+648 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+649 info retry registry request attempt 2 at 15:51:32
+650 http GET https://registry.npmjs.org/karma-jasmine-html-reporter
+651 info retry registry request attempt 2 at 15:51:32
+652 http GET https://registry.npmjs.org/karma
+653 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+654 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+655 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+656 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+657 info retry registry request attempt 2 at 15:51:32
+658 http GET https://registry.npmjs.org/angular/animations
+659 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+660 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+661 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+662 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+663 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+664 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+665 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+666 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+667 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+668 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+669 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+670 info retry registry request attempt 3 at 15:52:31
+671 http GET https://registry.npmjs.org/core-js
+672 info retry registry request attempt 3 at 15:52:31
+673 http GET https://registry.npmjs.org/angular-2-dropdown-multiselect
+674 info retry registry request attempt 3 at 15:52:31
+675 http GET https://registry.npmjs.org/zone.js
+676 silly lockFile 3b7416fa-lar-2-dropdown-multiselect-1-6-1 angular-2-dropdown-multiselect@^1.6.1
+677 silly lockFile a299e77f-core-js-2-4-1 core-js@^2.4.1
+678 error Error: SSL Error: CERT_UNTRUSTED
+678 error     at ClientRequest.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\main.js:440:26)
+678 error     at ClientRequest.g (events.js:156:14)
+678 error     at ClientRequest.emit (events.js:67:17)
+678 error     at HTTPParser.parserOnIncomingClient [as onIncoming] (http.js:1256:7)
+678 error     at HTTPParser.parserOnHeadersComplete [as onHeadersComplete] (http.js:91:29)
+678 error     at CleartextStream.socketOnData [as ondata] (http.js:1288:20)
+678 error     at CleartextStream._push (tls.js:375:27)
+678 error     at SecurePair.cycle (tls.js:734:20)
+678 error     at EncryptedStream.write (tls.js:130:13)
+678 error     at Socket.ondata (stream.js:38:26)
+678 error  [Error: SSL Error: CERT_UNTRUSTED]
+679 error You may report this log at:
+679 error     <http://github.com/isaacs/npm/issues>
+679 error or email it to:
+679 error     <npm-@googlegroups.com>
+680 error System Windows_NT 6.1.7601
+681 error command "C:\\Program Files (x86)\\nodejs\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--scripts-prepend-node-path=auto"
+682 error cwd C:\Users\varun.shah\WebstormProjects\CryptoDashboard
+683 error node -v v0.6.20
+684 error npm -v 1.1.37
+685 error message SSL Error: CERT_UNTRUSTED
+686 verbose exit [ 1, true ]
