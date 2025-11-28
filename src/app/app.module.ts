@@ -9,6 +9,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { FormsModule } from '@angular/forms';
 import { MultiselectDropdownModule } from 'angular-2-dropdown-multiselect';
 import { HttpClientModule } from '@angular/common/http';
+import { PROTOCOL_AWARE_XSRF_INTERCEPTOR } from './security/protocol-aware-xsrf.interceptor';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,7 @@ import { HttpClientModule } from '@angular/common/http';
     HttpClientModule,
     MultiselectDropdownModule
   ],
-  providers: [],
+  providers: [PROTOCOL_AWARE_XSRF_INTERCEPTOR],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
